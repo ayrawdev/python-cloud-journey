@@ -1,0 +1,13 @@
+a=[1,2,1,1,2,4,64,5780,3654,3,69,334,45]
+b=[1,2,3,4,5,6,7,8,9]
+a.append(64)
+a.reverse()
+print(a)
+print(a.index(1))
+b=a.copy()
+print(b)
+a.insert(4,2**5)
+print(a)
+a.sort()
+print(a.count(1))
+print(a+b)
